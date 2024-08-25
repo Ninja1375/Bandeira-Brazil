@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.brazil {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 315px;
+    background-color: transparent;
+}
+
+.rectangle {
+    background-color: #008000;
+    height: 100%;
+    width: 100%;
+}
+
+.diamond-up {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 38.75px;
+    width: 0px;
+    border-left: 186.75px solid transparent;
+    border-right: 186.75px solid transparent;
+    border-bottom: 119.25px solid #FFFF00;
+}
+
+.low-lozenge {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    margin-top: 157.35px;
+    width: 0px;
+    border-left: 186.75px solid transparent;
+    border-right: 186.75px solid transparent;
+    border-bottom: 119.25px solid #FFFF00;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0000FF;
+    width: 157.5px;
+    height: 157.5px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.range {
+    position: absolute;
+    margin-top: 55px;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 20px;
+}
+
+.range-h1 {
+    margin-top: 59px;
+    margin-left: 15px;
+    position: absolute;
+    z-index: 9;
+}
+
+h1 {
+    color: #008000;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+}
+
+.circle .star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.circle .star {
+    width: 0;
+    height: 0;
+    border-left: solid 4px transparent;
+    border-right: solid 4px transparent;
+    border-bottom: solid 2.5px #FFFFFF;
+    transform: rotatez(35deg);
+}
+
+.circle .star:before {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: -1.8px;
+    left: -2.5px;
+    border-left: solid 1px transparent;
+    border-right: solid 1px transparent;
+    border-bottom: solid 2.5px #FFFFFF;
+    transform: rotatez(-35deg);
+    content: '';
+}
+
+.circle .star:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -4px;
+    border-left: solid 4px transparent;
+    border-right: solid 4px transparent;
+    border-bottom: solid 2.5px #FFFFFF;
+    transform: rotatez(-70deg);
+    content: '';
+}
+
+.star.pa {
+    margin-left: 15px;
+    margin-top: -35px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.am {
+    margin-left: -65px;
+    margin-top: 2.5px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.ms {
+    margin-left: -45px;
+    margin-top: 10px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.ro {
+    margin-left: -52.5px;
+    margin-top: 20px;
+}
+
+.star.mt {
+    margin-left: -57.5px;
+    margin-top: 30px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.rr {
+    margin-left: -45px;
+    margin-top: 40px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.ap {
+    margin-left: -57.5px;
+    margin-top: 47.5px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.to {
+    margin-left: -50px;
+    margin-top: 52.5px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.go {
+    margin-left: -40px;
+    margin-top: 57.5px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.ba {
+    margin-left: -5px;
+    margin-top: 16.5px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.mg {
+    margin-left: -15px;
+    margin-top: 26.5px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.es {
+    margin-left: -7.5px;
+    margin-top: 31.5px;
+}
+
+.star.sp {
+    margin-left: -5px;
+    margin-top: 39px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.rj {
+    margin-left: 5px;
+    margin-top: 25px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.df {
+    margin-left: -5px;
+    margin-top: 62.5px;
+}
+
+.star.pr {
+    margin-left: 14px;
+    margin-top: 59px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.rs {
+    margin-left: 19px;
+    margin-top: 63px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.sc {
+    margin-left: 23.5px;
+    margin-top: 55px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.se {
+    margin-left: 27.5px;
+    margin-top: 65px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.al {
+    margin-left: 36.5px;
+    margin-top: 60px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.pe {
+    margin-left: 35px;
+    margin-top: 50px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.pb {
+    margin-left: 46px;
+    margin-top: 45px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.rn {
+    margin-left: 55px;
+    margin-top: 35px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.ce {
+    margin-left: 65px;
+    margin-top: 25px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.ma {
+    margin-left: 70px;
+    margin-top: 15px;
+    transform: scale(0.5, 0.5);
+}
+
+.star.pi {
+    margin-left: 62.5px;
+    margin-top: 7.5px;
+    transform: scale(0.75, 0.75);
+}
+
+.star.ac {
+    margin-left: 12.5px;
+    margin-top: 2.5px;
+}
